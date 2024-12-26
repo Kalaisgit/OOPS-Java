@@ -1,22 +1,18 @@
 class Vehicle //Base class
 {
   String Numberplate;
-
   public Vehicle( String Numberplate)
   {
     this.Numberplate = Numberplate;
   }
-
   public void Honk()
   {
     System.out.println(" Honks !!");
   }
-
   public void printNumberPlate()
   {
     System.out.println("Number plate : "+Numberplate);
   }
-
 }
 
 class Car extends Vehicle
